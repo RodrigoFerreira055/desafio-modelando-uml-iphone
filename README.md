@@ -9,9 +9,7 @@ abaixo a UML proposta
 
 
 classDiagram
-    iPhone <|-- Music
-    iPhone <|-- Phone
-    iPhone <|-- Internet
+    
     
     class Music{
       
@@ -32,3 +30,10 @@ classDiagram
       +adicionarNovaAba()
       +atualizarPagina()
     }
+
+     class iPhone {
+    }
+
+    iPhone --> Music
+    iPhone --> Phone
+    iPhone --> Internet
